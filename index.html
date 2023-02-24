@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Esta es una pag de...">
+    <meta name="robots" content="index,follow">
+    <title>Administrador de contraseñas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <h1>Bienvenida a su administrador de contraseñas</h1>
+        <p class="text">Seleccione una categoria</p>
+
+        <select class="selects" id="categorias">
+            <option value="">Seleccionar</option>
+            <option value="educacion">Educación</option>
+            <option value="juegos">Juegos</option>
+            <option value="redes-sociales">Redes sociales</option>
+            <option value="administracion">Administracion</option>
+            <option value="otros">Otros</option>
+        </select>
+        <p class="text">Seleccione una plataforma</p>
+        <select class="selects" id="seleccionar"> 
+            <option value="">Seleccionar</option>
+            <!--<option value="minijuegos">Minijuegos</option>
+            <option value="oracle-alura">Oracle-alura</option>
+            <option value="raid">Raid</option>
+            <option value="argentina-programa">Argentina Programa</option>
+            <option value="notion">Notion</option>-->
+        </select>
+        <button class="boton" id="buscar" onclick="buscarPass()">Buscar</button>
+        <p id="usuario"></p>
+        <p id="mensaje"></p>
+    </main>
+
+    <footer>
+        
+    </footer>
+    <script src="./funciones-lagarto.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

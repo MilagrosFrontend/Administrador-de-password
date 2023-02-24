@@ -1,0 +1,10 @@
+¿Tiene la PC rodeada de papelitos con la contraseña de cada sitio? ¿O usa un cuaderno de contraseñas? ¡Estos métodos son inseguros! Por eso le presento mi administrador de contraseñas: Aquí los usuarios pueden crear y guardar contraseñas de manera segura y conveniente. Las contraseñas se pueden encriptar para mayor seguridad y se copian automáticamente al portapapeles ¡por lo que ni siquiera tendrá que escribirla! Y para afianzar la seguridad y que no ingresen intrusos a su administrador de contraseñas solo se pueden acceder con una contraseña maestra elegida por el usuario. Los usuarios pueden agregar y eliminar contraseñas fácilmente. 
+
+Para usar el administrador de contraseñas simplemente siga estos pasos:
+1) Seleccione la categoría en la cual se encuentra su sitio web
+2) Seleccione el sitio web en si al que quiere acceder 
+3) Pulse el botón "Buscar"  
+4) Ingrese su contraseña maestra: 4231 
+5) Ingrese al sitio web que eligió con el usuario que aparece en pantalla y pegue la contraseña al casillero de contraseñas y ¡disfrute del sitio web! 
+
+Este sitio web se ha desarrollado utilizando tecnologías web como HTML, CSS y JS, lo que permite un diseño moderno y atractivo, así como una funcionalidad rápida y segura. Espero que mi administrador de contraseñas sea útil para los usuarios que buscan una manera segura y conveniente de manejar sus contraseñas. ¡Pruebe mi administrador de contraseñas hoy mismo! Se aceptan siempre sugerencias.

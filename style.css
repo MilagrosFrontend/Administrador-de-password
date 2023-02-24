@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+    
+body {
+    height: 100vh;
+    background: rgb(165, 105, 189)
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main h1 {
+    margin-top: 100px;
+    font-size: 3rem;
+    text-align: center
+}
+main .text {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+main .selects {
+    margin-top: 20px;
+    font-size: 2rem;
+    width: 300px;
+    height: 40px;
+    padding-left: 30px;
+   /* margin-left: 10px; no funciona esta linea. necesito los espacios en las opciones*/
+}
+
+.boton {
+    background: #fff; /* color de fondo */
+    color: rgba(2,0,36,1); /* color de fuente */
+    border: 2px solid rgba(2,0,36,1); /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 10px;
+    margin-top: 40px;
+    font-weight: bolder;
+    width: 300px;
+    height: 60px;
+}
+.boton:before, .boton:after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: -50%;
+    background-color: rgba(2,0,36,1); /* color de fondo hover */
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.boton:after {
+    left: 100%;
+}
+.boton:hover {
+    color: #fff; /* color de fuente hover */
+}
+.boton:hover:before {
+    left: 0;
+}
+.boton:hover:after {
+    left: 50%;
+}
+
+
+
+
+
+
+
+#usuario {
+    margin-top: 10px;
+    font-size:3rem;
+    font-weight: bolder;
+}
+#mensaje {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 10px;
+}
